@@ -1,0 +1,7 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+
+GET     /api/obp/historicoSolicitudesOBP              controllers.Application.getSolicitudHistoriaLaboral(user, password, tipoId, numeroId)
+    
